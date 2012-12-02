@@ -1,6 +1,6 @@
 # Android Log
 
-便利なログ
+便利なログ。あとで書く
 
 ## Usage
 
