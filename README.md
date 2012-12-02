@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-import jp.s5r.util.Log
+import jp.s5r.util.Log;
 ```
 
 ```
