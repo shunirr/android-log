@@ -1,14 +1,29 @@
 # Android Log
 
-便利なログ。あとで書く
+Android の Log クラス (android.util.Log) が不便なので、便利になるようにしていく (予定地)
 
 ## Usage
 
-```
-import jp.s5r.util.Log;
-```
+### 普通のログ
+
+* TAG が省略できる (定数にしてるだけ)
 
 ```
 Log.d("this is test log");
+```
+
+### トレースログ
+
+* これまで
+ * メソッドの頭とかで
+
+```
+Log.d(TAG, "<HogeActivity/onCreate>");
+```
+
+* 便利なログだと
+
+```
+Log.trace();
 ```
 
